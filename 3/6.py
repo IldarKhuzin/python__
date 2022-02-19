@@ -7,6 +7,5 @@ def int_func(text):
     """
     new_text = text.title()
     return new_text
-
 text = input('введите слово')
 print (int_func(text))
