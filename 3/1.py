@@ -12,5 +12,4 @@ def do_div(first, second):
 
 first = int(input('введите первое число'))
 second = int(input('введите второе число, отличное от нуля'))
-
 do_div(first,second)

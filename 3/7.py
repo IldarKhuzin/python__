@@ -11,7 +11,6 @@ def int_func(text):
 some_text = input('введите текст из маленьких букв')
 some_text = str.split(some_text,' ')
 new_text = []
-
 for i in some_text:
     new_text.append(int_func(i))
 delimeter = ' '
