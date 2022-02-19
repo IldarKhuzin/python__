@@ -1,6 +1,5 @@
 def person(name = None, surname = None, bdyear = None, town = None, email = None, phone = None):
     """
-
     :param name: name person
     :param surname: surname person
     :param bdyear: year of bird

@@ -15,6 +15,7 @@ def str_split (a):
         i = int(i)
         summa = summa + i
     return summa ,stop
+
 my_sum = 0
 stop = 0
 while stop != 1:

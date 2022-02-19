@@ -6,4 +6,5 @@ def my_func (x, y):
     """
     c = x**y
     return c
+
 print(my_func(10.543,-2))
