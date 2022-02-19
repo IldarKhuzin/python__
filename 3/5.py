@@ -3,7 +3,7 @@ def str_split (a):
     функция принимает строку из цифр или строку из цифр со словом "stop"
     возвращает сумму цифр и маркер слова "stop"
     :param a: строка из цифр или строка цифр со словом 'stop'
-    :return: сумма цифр со словом 'stop'
+    :return: сумма цифр со словом 'stop', маркер слова "stop"
     """
     summa = 0
     stop = 0
@@ -15,7 +15,6 @@ def str_split (a):
         i = int(i)
         summa = summa + i
     return summa ,stop
-
 my_sum = 0
 stop = 0
 while stop != 1:
