@@ -10,4 +10,5 @@ def person(name = None, surname = None, bdyear = None, town = None, email = None
     """
     pers = [name, surname, bdyear, town, email, phone]
     print(pers)
+
 person('Ivan', 'Ivanov', 1999,'Moscow', 'ddfa@mad.jf', '223-322')

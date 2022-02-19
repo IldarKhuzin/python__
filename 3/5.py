@@ -17,6 +17,7 @@ def str_split (a):
     return summa ,stop
 my_sum = 0
 stop = 0
+
 while stop != 1:
     your_str = input('введите цифры, разделяя их пробелами, или введите слово "stop"')
     summa, stop = str_split(your_str)
