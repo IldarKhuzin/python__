@@ -6,6 +6,7 @@ from sys import argv
 salary =  int(argv[1]) * int(argv[2]) + int(argv[3])
 print (f'зарплата сотрудника {salary}')
 
+
 # строка для запуска в терминале
 # (venv) ildar@ildar-Dell-G15-5510:~/work_4$ python 4/1.py 100 10 20
 
