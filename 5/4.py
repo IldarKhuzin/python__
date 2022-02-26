@@ -36,4 +36,3 @@ with open('4test.txt') as file_obj:          # открываем файл на 
 
 with open('4_1test.txt', 'w') as file_obj:
     file_obj.writelines(my_string)           # записываем список в файл
-

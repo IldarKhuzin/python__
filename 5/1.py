@@ -10,6 +10,3 @@ while str_u != '':
     str_u = input('введите строку')
     next_line = '\n'
     str_user = str_u + next_line
-
-
-
