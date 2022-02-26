@@ -6,4 +6,3 @@ with open('2test.txt') as file_obj:
         word = str.split(strings[i],' ')
         print(f'количество слов в строке номер {i + 1} = {len(word)}')
     print(f'количество строк равно {len(strings)}')
-

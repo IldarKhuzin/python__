@@ -12,3 +12,4 @@ with open('5test.txt') as file_obj:
     for i in range(len(digits)):
         dig_sum = dig_sum + int(digits[i])       # переводим в int и суммируем
     print(dig_sum)
+
