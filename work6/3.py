@@ -8,3 +8,25 @@
 # проверить работу примера на реальных данных: создать экземпляры класса Position, передать
 # данные, проверить значения атрибутов,
 # вызвать методы экземпляров.
+
+class Worker:
+
+    def __init__(self, name, surname, position, wage, bonus):
+        self.name = name
+        self.surname = surname
+        self.position = position
+        self._income = {"wage": wage, "bonus": bonus}
+
+
+class Position(Worker):
+
+    def get_full_name(self):
+        return f'ФИО сотрудника - {self.name} {self.surname}'
+
+    def get_total_income(self):
+        return f'доход сотрудника с учетом премии - {self._income["wage"] + self._income["bonus"]}'
+
+pers = Position('Петр','Иванов','начальник', 500000, 100000)
+
+print(pers.get_full_name())
+print(pers.get_total_income())
