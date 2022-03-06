@@ -41,4 +41,3 @@ print(s.consumption)
 c = Coat(6)
 print(c.consumption)
 print(get_sum(s.consumption,c.consumption))
-

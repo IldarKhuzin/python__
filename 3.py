@@ -57,6 +57,7 @@ class Cell:
         result += '*' * (self.cell % row) + '\n'
         return result
 
+
 a = Cell(10)
 print(a.__add__(5))
 print(a.__mul__(4))
