@@ -27,4 +27,3 @@ class Xerox(Equipment):
     def __init__(self, copy_speed):
         super().__init__(voltage= self.voltage, weight= self.weight)
         self.copy_speed = copy_speed
-

@@ -30,5 +30,3 @@ print(Data.string_to_number('05 - 09 - 1975'))
 print(Data.is_valid(Data.string_to_number('4 - 0 - 1954')))
 print(Data.is_valid(Data.string_to_number('34 - 10 - 1954')))
 print(Data.is_valid(Data.string_to_number('4 - 10 - 1954')))
-
-

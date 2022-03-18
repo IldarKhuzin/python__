@@ -4,7 +4,6 @@
 
 import math
 
-
 class ComplexNumb:
 
     def __init__(self, a, b):
